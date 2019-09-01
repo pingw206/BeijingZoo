@@ -1,0 +1,17 @@
+.navigation {
+  height: 2em;
+  font-size: 1.2em;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li {
+  float: left;
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+}

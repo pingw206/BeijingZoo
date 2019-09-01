@@ -1,0 +1,10 @@
+style(type='text/css')
+  include ../public/stylesheets/navigation.css
+
+- var navList = ["首页", "活动", "趣闻", "投喂时间表"]
+- var navLink = ["/index", "/events", "/interest_news", "/tmtables"]
+div(class='navigation')
+  ul
+    - for (var i = 0; i < navList.length; i++)
+        li
+          a(href=navLink[i])= navList[i] 
